@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+dist/
+verification/
+artifacts/
+.vs/
+*.user
+*.suo
+*.dll
+*.pdb
+*.zip
+*.log
