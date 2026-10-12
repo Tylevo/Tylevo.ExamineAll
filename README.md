@@ -1,6 +1,8 @@
 # Tylevo's Examine All
 
-For those who don't have SVM installed for whatever reason.
+A Lightweight Examine All Mod
+
+For those people out there who don't have SVM installed for whatever reason like me.
 
 Adds an **Examine all** button to the bottom-left corner of the main menu. Click it, let it finish, and a notification tells you how many new items were examined.
 
