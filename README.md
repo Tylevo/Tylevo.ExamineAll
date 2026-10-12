@@ -23,9 +23,3 @@ BepInEx/plugins/Tylevo.ExamineAll/Tylevo.ExamineAll.dll
 Stay on the main menu while it runs. Leaving the menu stops further batches. If it asks you to restart, restart the game before trying again.
 
 It updates your active PMC profile and uses SPT's normal autosave. Let the server save before closing it. To uninstall, remove the `Tylevo.ExamineAll` plugin folder; items you've examined stay examined.
-
-## Build status
-
-**0.1.1 is a test release.** Compilation and 67 offline checks passed. The menu, notification and saved results still need an in-game check.
-
-Build instructions and the test checklist are in [Development](https://github.com/Tylevo/Tylevo.ExamineAll/blob/main/docs/DEVELOPMENT.md). If something goes wrong, open an [issue](https://github.com/Tylevo/Tylevo.ExamineAll/issues) with your SPT version and the relevant lines from `BepInEx/LogOutput.log`.
