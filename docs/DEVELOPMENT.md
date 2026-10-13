@@ -6,7 +6,7 @@ Use .NET SDK 10 and your own SPT 4.1.6 / EFT 40743 client files:
 .\tools\Build.ps1 -SptPath 'D:\YourSPT'
 ```
 
-The script runs the offline tests, compiles the plugin and copies it with the README into `dist/BepInEx/plugins/Tylevo.ExamineAll/`. It does not install anything. Game, Unity and BepInEx assemblies are local references and aren't included in this repository or the release.
+The script runs the offline tests, compiles the plugin and copies it with the README and MIT license into `dist/BepInEx/plugins/Tylevo.ExamineAll/`. It does not install anything. Game, Unity and BepInEx assemblies are local references and aren't included in this repository or the release.
 
 To run just the offline tests, without a game installation:
 
@@ -28,7 +28,7 @@ SPT handles profile autosave. Scav knowledge follows the game's normal synchroni
 
 ## Validation
 
-Version 0.1.1 compiled with no warnings or errors and passed 67 offline checks. These cover batching, duplicate IDs, cancellation, acknowledgements, timeouts and result notifications. They do not test the live Unity UI or prove that changes survived a game restart.
+Version 0.1.2 compiled with no warnings or errors and passed 67 offline checks. These cover batching, duplicate IDs, cancellation, acknowledgements, timeouts and result notifications. They do not test the live Unity UI or prove that changes survived a game restart.
 
 Still to check in game:
 
@@ -41,4 +41,4 @@ Still to check in game:
 
 ## Packaging
 
-Package only the `BepInEx` folder from `dist/`. Keep the README with the plugin. Use forward slashes for ZIP entry paths. Old archives, build logs, generated files and local verification records are ignored by Git.
+Package only the `BepInEx` folder from `dist/`. Keep the README and LICENSE with the plugin. Use forward slashes for ZIP entry paths. Old archives, build logs, generated files and local verification records are ignored by Git.

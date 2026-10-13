@@ -18,5 +18,6 @@ try {
     New-Item -ItemType Directory -Path $output -Force | Out-Null
     Copy-Item -LiteralPath (Join-Path $projectRoot 'src\bin\Release\Tylevo.ExamineAll.dll') -Destination $output
     Copy-Item -LiteralPath (Join-Path $projectRoot 'README.md') -Destination $output
+    Copy-Item -LiteralPath (Join-Path $projectRoot 'LICENSE') -Destination $output
     Write-Output ('Built test files in '+$output+'. Nothing installed.')
 } finally { $env:TEA_SPT_ROOT=$previousRoot }
