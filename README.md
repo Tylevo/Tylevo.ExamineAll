@@ -12,7 +12,7 @@ It skips items you already know and includes items added by mods. Added another 
 
 Requires **SPT 4.1.6 / EFT 40743** and BepInEx 5, included with SPT. No server mod or SVM needed.
 
-1. Download `Tylevo.ExamineAll-0.1.2-Test.zip` from [Releases](https://github.com/Tylevo/Tylevo.ExamineAll/releases).
+1. Download `Tylevo.ExamineAll-1.0.0.zip` from [Releases](https://github.com/Tylevo/Tylevo.ExamineAll/releases).
 2. Close the game and extract the ZIP into your SPT folder, where `EscapeFromTarkov.exe` is.
 3. Start the game and click **Examine all** on the main menu.
 

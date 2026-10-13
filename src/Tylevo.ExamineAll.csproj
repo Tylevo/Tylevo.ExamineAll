@@ -6,7 +6,7 @@
     <ImplicitUsings>disable</ImplicitUsings>
     <AssemblyName>Tylevo.ExamineAll</AssemblyName>
     <RootNamespace>Tylevo.ExamineAll</RootNamespace>
-    <Version>0.1.2</Version>
+    <Version>1.0.0</Version>
     <Deterministic>true</Deterministic>
     <PathMap>$(MSBuildProjectDirectory)=/_/Tylevo.ExamineAll/src</PathMap>
     <SPTPath Condition="'$(SPTPath)' == ''">$(TEA_SPT_ROOT)</SPTPath>

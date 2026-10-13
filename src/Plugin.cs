@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Tylevo.ExamineAll
 {
-    [BepInPlugin("com.tylevo.examineall", "Tylevo-ExamineAll", "0.1.2")]
+    [BepInPlugin("com.tylevo.examineall", "Tylevo-ExamineAll", "1.0.0")]
     public sealed class Plugin : BaseUnityPlugin
     {
         private const string InspectedGameMvid = "cc2d80b0-6d5b-4cb1-a581-6d2cc901d4c7";
@@ -20,7 +20,7 @@ namespace Tylevo.ExamineAll
             if (Application.isBatchMode) { enabled = false; return; }
             if (typeof(MenuScreen).Module.ModuleVersionId.ToString() != InspectedGameMvid)
             {
-                Logger.LogError("Examine All 0.1.2 requires the inspected SPT 4.1.6 / EFT 40743 client.");
+                Logger.LogError("Examine All 1.0.0 requires the inspected SPT 4.1.6 / EFT 40743 client.");
                 enabled = false;
                 return;
             }
