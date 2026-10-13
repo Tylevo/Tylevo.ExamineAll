@@ -26,19 +26,5 @@ Leaving the main menu stops new batches. An already submitted batch may still fi
 
 SPT handles profile autosave. Scav knowledge follows the game's normal synchronization when it generates a scav or completes a raid.
 
-## Validation
-
-Version 0.1.2 compiled with no warnings or errors and passed 67 offline checks. These cover batching, duplicate IDs, cancellation, acknowledgements, timeouts and result notifications. They do not test the live Unity UI or prove that changes survived a game restart.
-
-Still to check in game:
-
-- Button placement and interaction at different resolutions.
-- Unknown base-game and mod items become examined without XP; known items stay known.
-- One completion alert reports the new-item count, and pressing again reports zero.
-- Leaving the menu stops new batches and reports only confirmed progress on return.
-- Installing a content pack and restarting makes its unknown items available to the next run.
-- Changes remain after normal autosave and a client/server restart.
-
-## Packaging
 
 Package only the `BepInEx` folder from `dist/`. Keep the README and LICENSE with the plugin. Use forward slashes for ZIP entry paths. Old archives, build logs, generated files and local verification records are ignored by Git.
